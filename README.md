@@ -1,6 +1,6 @@
 # Notion Clone
 
-Welcome to **Notion Clone**, a full-featured task management application built using Java and Spring Boot. This project is developed and maintained by **DevOps Shack**, a YouTube channel focused on DevOps tutorials and best practices.
+Welcome to **Notion Clone**, a full-featured task management application built using Java and Spring Boot. This project is developed and maintained by **Pratik Hanmante**,
 
 ## 📌 Table of Contents
 - [📖 Introduction](#introduction)
