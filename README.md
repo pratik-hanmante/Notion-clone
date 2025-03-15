@@ -1,87 +1,102 @@
-# Task Master Pro
+Notion Clone
 
-Welcome to Task Master Pro, a comprehensive Java application designed to manage tasks efficiently. This project is developed and maintained by DevOps Shack, a YouTube channel dedicated to DevOps tutorials and best practices.
+Welcome to Notion Clone, a full-featured task management application built using Java and Spring Boot. This project is developed and maintained by DevOps Shack, a YouTube channel focused on DevOps tutorials and best practices.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+Table of Contents
 
-## Introduction
+Introduction
 
-Task Master Pro is a task management application built using Java. It provides a robust set of features to help users create, manage, and track tasks. This project aims to demonstrate best practices in Java development, including project structure, coding standards, and documentation.
+Features
 
-## Features
+Installation
 
-- Create, update, and delete tasks
-- Mark tasks as complete or incomplete
-- User authentication and authorization
+Usage
 
-## Installation
+Contributing
 
-### Prerequisites
+License
 
-- Java Development Kit (JDK) 17 or later
-- Apache Maven 3.6.0 or later
-- A database (H2)
+Introduction
 
-### Steps
+Notion Clone is a powerful and intuitive task management application designed to help users efficiently create, organize, and track their tasks. This project follows best practices in Java development, ensuring maintainability and scalability.
 
-1. Clone the repository:
+Features
 
-    ```sh
-    git clone https://github.com/pratik-hanmante/Notion-clone.git
-   
-    ```
+Create, update, and delete tasks
 
-2. Configure the database:
+Mark tasks as complete or incomplete
 
-    Update the `application.properties` file with your database configuration.
+User authentication and authorization
 
-3. Build the project:
+RESTful API for seamless integration
 
-    ```sh
-    mvn clean install
-    ```
+Installation
 
-4. Run the application:
+Prerequisites
 
-    ```sh
-    mvn spring-boot:run
-    ```
+Java Development Kit (JDK) 17 or later
 
-## Usage
+Apache Maven 3.6.0 or later
 
-Once the application is running, you can access it at `http://localhost:8080`. You can use the web interface to manage your tasks.
+H2 Database (Default) or configure an external database
 
-### Endpoints
+Steps
 
-- `/tasks` - View and manage tasks
-- `/tasks/{id}` - View, update, or delete a specific task
-- `/login` - User login
-- `/register` - User registration
+Clone the repository:
 
-## Contributing
+git clone https://github.com/pratik-hanmante/Notion-clone.git
 
-We welcome contributions to improve Task Master Pro. If you have a feature request, bug report, or improvement suggestion, please open an issue or submit a pull request.
+Configure the database:
 
-### Steps to Contribute
+Update the application.properties file with your database settings.
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature-branch`)
-6. Open a pull request
+Build the project:
 
-## License
+mvn clean install
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Run the application:
 
+mvn spring-boot:run
 
+Usage
+
+Once the application is running, access it at http://localhost:8080. Use the web interface to manage your tasks.
+
+API Endpoints
+
+GET /tasks - Retrieve all tasks
+
+POST /tasks - Create a new task
+
+PUT /tasks/{id} - Update a task
+
+DELETE /tasks/{id} - Delete a task
+
+POST /login - Authenticate a user
+
+POST /register - Register a new user
+
+Contributing
+
+We welcome contributions to improve Notion Clone. If you have a feature request, bug report, or improvement suggestion, feel free to open an issue or submit a pull request.
+
+How to Contribute
+
+Fork the repository
+
+Create a new branch (git checkout -b feature-branch)
+
+Implement your changes
+
+Commit your changes (git commit -m 'Add feature XYZ')
+
+Push to your branch (git push origin feature-branch)
+
+Open a pull request
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 Happy coding!
+
