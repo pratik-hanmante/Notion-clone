@@ -34,8 +34,8 @@ Task Master Pro is a task management application built using Java. It provides a
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/jaiswaladi246/Task-Master-Pro.git
-    cd Task-Master-Pro
+    git clone https://github.com/pratik-hanmante/Notion-clone.git
+   
     ```
 
 2. Configure the database:
@@ -82,8 +82,6 @@ We welcome contributions to improve Task Master Pro. If you have a feature reque
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Contact
 
-For any questions or inquiries, please reach out to us at [DevOps Shack](https://www.youtube.com/@devopsshack/videos)
 
 Happy coding!
