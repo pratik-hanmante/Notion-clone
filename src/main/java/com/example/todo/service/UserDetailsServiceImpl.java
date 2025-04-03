@@ -37,7 +37,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         builder.password(user.getPassword()); // Set the password for the UserDetails
         builder.roles(user.getRole()); // Set the roles for the UserDetails
         
-        // Return the built UserDetails object
+        // Return the built UserDetails objects
         return builder.build();
     }
 }
