@@ -1,7 +1,7 @@
 package com.example.todo.service;
 
 import com.example.todo.model.User; 
-import com.example.todo.repository.UserRepository; // Importing the UserRepository interface
+import com.example.todo.repository.UserRepository; 
 import org.springframework.beans.factory.annotation.Autowired; // Importing the Autowired annotation
 import org.springframework.security.core.userdetails.UserDetails; // Importing the UserDetails interface
 import org.springframework.security.core.userdetails.UserDetailsService; // Importing the UserDetailsService interface
