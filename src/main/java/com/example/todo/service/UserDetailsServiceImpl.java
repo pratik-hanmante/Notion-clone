@@ -5,7 +5,7 @@ import com.example.todo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails; // Importing the UserDetails interface
 import org.springframework.security.core.userdetails.UserDetailsService; // Importing the UserDetailsService interface
-import org.springframework.security.core.userdetails.UsernameNotFoundException; // Importing the UsernameNotFoundException class
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.core.userdetails.User.UserBuilder; // Importing the UserBuilder class
 import org.springframework.stereotype.Service; // Importing the Service annotation
 
